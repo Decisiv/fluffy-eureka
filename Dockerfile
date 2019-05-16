@@ -11,3 +11,4 @@ LABEL "maintainer"="Ryan Billington <rbillington@decisiv.com>"
 
 ADD entrypoint.sh /entrypoint.sh
 ENTRYPOINT ["/entrypoint.sh"]
+CMD ["build","*.gemspec"]
